@@ -7,7 +7,8 @@ header img {
 }
 
 header {
-    background-color: rgb(240, 10, 10);
+    /*background-color: rgb(37, 58, 76);*/
+    background-image: url("../images/banner-bg.jpeg");
     position: fixed;
     top: 0;
     left: 0;
@@ -27,7 +28,7 @@ header li {
 }
 
 header li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
