@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pannel B Photos</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+
+<body>
+
+    <!--navigation bar section-->
+    
+    <header>
+        <img src="./resources/images/pannelB_2_clipped_rev_1.png" alt="pannel b logo">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./photos.html">Photos</a></li>
+                <li><a href="./mixes.html">Mixes</a></li>
+                <li><a class="active" href="./contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--email me submission box-->
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="your name" placeholder="Your name..">
+      
+          <label for="location">Event Location (City)</label>
+          <input type="text" id="location" name="location" placeholder="location">
+      
+          <label for="etype">Type of event</label>
+          <select id="etype" name="etype">
+            <option value="wedding">Wedding</option>
+            <option value="birthday">Birthday Party</option>
+            <option value="club">Club</option>
+            <option value="bar">Bar</option>
+            <option value="other">Other</option>
+          </select>
+      
+          <label for="description">Please describe your event</label>
+          <textarea id="description" name="description" placeholder="Please describe your event.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+</body>
+    
+</html>
