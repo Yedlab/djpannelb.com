@@ -17,6 +17,7 @@ header {
     display: flex;
     align-items: center;
     box-shadow: 0 0 25px 0 black;
+    z-index: 1;
 }
 
 header * {
@@ -131,6 +132,7 @@ main {
 .mixes {
     display: flex;
     align-items: center;
+    z-index: 0;
 }
 
 .song1 {
