@@ -214,6 +214,7 @@ input[type=text], select, textarea {
         height: 80px;
         margin-left: 40px;
         margin-right: 20px;
+        overflow: hidden;
     }
 
     header {
@@ -223,11 +224,13 @@ input[type=text], select, textarea {
         top: 0;
         left: 0;
         right: 0;
-        height: 80px;
+        height: 160px;
         display: flex;
+        flex-direction: column;
         align-items: center;
         box-shadow: 0 0 25px 0 black;
         z-index: 1;
+        max-width: 420px;
     }
 
     header * {
@@ -243,10 +246,19 @@ input[type=text], select, textarea {
         text-decoration: none;
     }
 
+    #pb-logo {
+        max-width: 75%;
+        max-height: 55%;
+        margin-left: 20px;
+        margin-right: 30px;
+        padding: 15px;
+        /*margin-left: 10px;*/
+    }
+
     /* style the links inside the navigation bar*/
 
     nav a {
-        float: left;
+        /*float: left;*/
         color: #f2f2f2;
         text-align: center;
         padding: 14px 16px;
@@ -276,7 +288,9 @@ input[type=text], select, textarea {
         background-size: cover;
         font-family: sans-serif;
         margin-top: 80px;
-        padding: 30px;
+        padding: 10px;
+        padding-top: 120px;
+        max-width: 420px;
     }
 
     h1 {
@@ -291,24 +305,24 @@ input[type=text], select, textarea {
     }
 
     main {
-        display: flex;
-        align-items: center;
+        display: block; /*flex;*/
+        /*align-items: center;*/
     }
 
     #dj1 {
         border-radius: 50%;
         border: 2px solid red;
-        height: 480px;
-        width: 480px;
+        height: 380px;
+        width: 380px;
         display: block;
-        margin-left: 20px;
-        margin-right: 40px;
+        margin-left: auto;
+        margin-right: auto;
         
     }
 
     #bio {
         color: white;
-        text-align: center;
+        /*text-align: center;*/
     }
 
     .gallery {
