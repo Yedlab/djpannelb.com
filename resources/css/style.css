@@ -238,7 +238,7 @@ input[type=text], select, textarea {
     }
 
     header li {
-        margin: 20px;
+        /*margin: 20px;*/
     }
 
     header li a {
